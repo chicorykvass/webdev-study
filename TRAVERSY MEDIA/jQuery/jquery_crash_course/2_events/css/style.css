@@ -1,0 +1,22 @@
+body {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 4px ridge #000;
+  margin-bottom: 10px;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}

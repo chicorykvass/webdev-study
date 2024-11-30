@@ -1,0 +1,15 @@
+// $("h1").hide();
+// $('#heading1').hide();
+// $('.heading2').hide();
+// $('p span').css('color', 'crimson');
+// $('#list li:first').css('color', 'crimson');
+// $('#list li:last').css('color', 'green');
+// $('#list li:odd').css('background', 'snow');
+// $('#list li:even').css('background', 'coral');
+// $('li:nth-child(even)').css('background', 'snow');
+// $('li:nth-child(odd)').css('background', 'coral');
+// $('#list li:nth-child(3n)').css('list-style', 'none');
+// $(':submit').hide();
+// $('[href]').css('color', 'crimson');
+// $('a:contains("Google")').css('color', 'navy');
+// $('a[href="http://yahoo.com"]').css('color', 'orangered');
