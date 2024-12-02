@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #555;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* fixed = parallax
+     scroll = normal */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('../img/image1.jpg');
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url('../img/image2.jpg');
+  min-height: 25rem;
+}
+
+.pimg3 {
+  background-image: url('../img/image3.jpg');
+  min-height: 25rem;
+}
+
+.section {
+  text-align: center;
+  padding: 3.125rem 5rem;
+}
+
+.section h2 {
+  margin-bottom: 1.5625rem;
+}
+
+.section-light {
+  background: #f4f4f4;
+}
+
+.section-dark {
+  background: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #222;
+  font-size: 1.6875rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background: #222;
+  color: #f4f4f4;
+  padding: 1.25rem;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media(max-width: 568px) {
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
+}
