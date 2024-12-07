@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <title>Bootstrap Sandbox | Display & Position</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">Display & Position</h1>
+
+      <!-- Display: None -->
+      <p class="d-none">This text is hidden.</p>
+      <br>
+      <br>
+
+      <!-- Display: Inline -->
+      <div class="d-inline">This text is inline.</div>
+      <div class="d-inline">This text is inline.</div>
+      <br>
+      <br>
+
+      <!-- Display: Block -->
+      <span class="d-block">This text is block.</span>
+      <span class="d-block">This text is block.</span>
+      <br>
+      <br>
+
+      <!-- Display: Inline Block -->
+      <span class="d-inline-block" style="width: 500px">This text is inline-block.</span>
+      <span class="d-inline-block">This text is inline-block.</span>
+      <br>
+      <br>
+
+      <!-- Hide on small screens -->
+      <div class="d-none d-md-block">This div is hidden on mobile</div>
+      <br>
+      <br>
+
+      <!-- Hide on medium screens and up -->
+      <div class="d-md-none">This div is hidden on medium screens and up</div>
+      <br>
+      <br>
+
+      <!-- POSITIONING -->
+
+      <!-- Position: Static -->
+      <p class="position-static">This text is static</p>
+      <br>
+      <br>
+
+      <!-- Position: Relative & Absolute -->
+      <div class="position-relative" style="height: 200px; width: 200px; background: #ccc">
+        <p class="position-absolute end-0 bottom-0 m-0">Hello</p>
+      </div>
+      <br>
+      <br>
+
+      <!-- Position: Fixed -->
+      <p class="position-fixed">This text is fixed</p>
+      <br>
+      <br>
+
+      <p class="fixed-top">This text is fixed top</p>
+      <p class="fixed-bottom">This text is fixed bottom</p>
+      <br>
+      <br>
+    </div>
+
+    <div style="height: 300px"></div>
+    <script src="assets/bootstrap.bundle.js"></script>
+  </body>
+</html>
