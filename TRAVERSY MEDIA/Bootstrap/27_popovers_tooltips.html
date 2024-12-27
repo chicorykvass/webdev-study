@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap.css" />
+    <title>Bootstrap Sandbox | Popovers & Tooltips</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">Popovers & Tooltips</h1>
+
+      <!-- Popover -->
+      <button
+        class="btn btn-danger btn-lg"
+        id="popover"
+        data-bs-toggle="popover"
+        data-bs-title="Popover Title"
+        data-bs-content="This is popover content"
+      >
+        Toggle Popover
+      </button>
+      <br />
+      <br />
+
+      <!-- Tooltip -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+        <a href="#" data-bs-toggle="tooltip" data-bs-title="Tooltip One"
+          >tooltip one</a
+        >odio sunt deserunt aliquam sed nulla possimus libero voluptatibus
+        soluta illum voluptatum eum quis vel, similique
+        <a href="#" data-bs-toggle="tooltip" data-bs-title="Tooltip Two"
+          >tooltip two</a
+        >perspiciatis culpa voluptates adipisci distinctio.
+      </p>
+    </div>
+
+    <div style="margin-top: 300px"></div>
+    <script src="assets/bootstrap.bundle.js"></script>
+    <script>
+      const popoverEl = document.querySelector("#popover");
+      new bootstrap.Popover(popoverEl);
+
+      const tooltipToggleList = document.querySelectorAll(
+        'a[data-bs-toggle="tooltip"]'
+      );
+      [...tooltipToggleList].map(
+        (tooltipEl) => new bootstrap.Tooltip(tooltipEl)
+      );
+    </script>
+  </body>
+</html>

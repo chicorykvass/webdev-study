@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/bootstrap.css" />
+    <title>Bootstrap Sandbox | Toggle Dark Mode</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">Toggle Dark Mode</h1>
+
+      <div class="card mb-4" style="width: 18rem">
+        <div class="card-header">This is a card</div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
+          perferendis repellat debitis aut consequatur voluptas reprehenderit
+          corporis esse temporibus sunt!
+        </div>
+      </div>
+
+      <button style="display: none" class="btn" id="themeSwitch"></button>
+    </div>
+
+    <div style="margin-top: 300px"></div>
+    <script src="assets/bootstrap.bundle.js"></script>
+    <script>
+      const storageTheme = localStorage.getItem('bs_theme');
+      let mode = storageTheme !== null ? storageTheme : 'light';
+      const button = document.querySelector("#themeSwitch");
+
+      const setTheme = () => {
+        document.querySelector("html").setAttribute('data-bs-theme', mode);
+        localStorage.setItem('bs_theme', mode);
+        button.textContent = 'Switch to ';
+        if (mode === 'dark') {
+          button.classList.remove('btn-dark');
+          button.classList.add('btn-light');
+          button.textContent += 'Light';
+        } else {
+          button.classList.remove('btn-light');
+          button.classList.add('btn-dark');
+          button.textContent += 'Dark';
+        }
+        button.style.display = 'block';
+      };
+
+      setTheme();
+
+      button.addEventListener('click', () => {
+        mode = mode === 'dark' ? 'light' : 'dark';
+        setTheme();
+      })
+    </script>
+  </body>
+</html>
