@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
+
+body {
+  font-family: "News Cycle", sans-serif;
+}
+
+.icon-check,
+.icon-remove {
+  display: none;
+}
+
+.control:has(input[type="text"]:focus) .icon-check {
+  color: green !important;
+}
+
+.control:has(input[type="text"]:focus) .icon-remove {
+  color: red !important;
+}
