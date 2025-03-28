@@ -1,5 +1,13 @@
 <?php
-$output = null;
+$user = [
+  'name' => 'John',
+  'email' => 'john@gmail.com',
+  'password' => '1234567',
+  'hobbies' => ['Reading', 'Video Games']
+];
+
+$user['address'] = '123 Main St';
+unset($user['address']);
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +29,10 @@ $output = null;
   <div class="container mx-auto p-4 mt-4">
     <div class="bg-white rounded-lg shadow-md p-6 mt-6">
       <!-- Output -->
-      <p class="text-xl"><?= $output ?></p>
+      <h2 class="font-semibold my-4">User Array:</h2>
+      <p class="text-xl">
+      <pre><?php print_r($user); ?></pre>
+      </p>
     </div>
   </div>
 </body>
