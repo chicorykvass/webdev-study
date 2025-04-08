@@ -5,4 +5,3 @@ tailwind.config.js
 *config/db.php
 *.env
 *.vscode
-*.DS_Store
