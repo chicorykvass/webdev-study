@@ -177,34 +177,6 @@
 
         <!-- Job Listing 5: Graphic Designer -->
         <div class="rounded-lg shadow-md bg-white">
-<<<<<<< HEAD
-          <div class="container h-full flex flex-col justify-between p-4">
-            <div class="container">
-              <h2 class="text-xl font-semibold">Graphic Designer</h2>
-              <p class="text-gray-700 text-lg mt-2">
-                Join our creative team as a Graphic Designer and bring ideas to
-                life.
-              </p>
-            </div>
-            <div class="container">
-              <ul class="my-4 bg-gray-100 p-4 rounded">
-                <li class="mb-2"><strong>Salary:</strong> $60,000</li>
-                <li class="mb-2">
-                  <strong>Location:</strong> Miami
-                  <span
-                    class="text-xs bg-blue-500 text-white rounded-full px-2 py-1 ml-2">Local</span>
-                </li>
-                <li class="mb-2">
-                  <strong>Tags:</strong> <span>Graphic Design</span>,
-                  <span>Creative</span>
-                </li>
-              </ul>
-              <a href="details.html"
-                class="block w-full text-center px-5 py-2.5 shadow-sm rounded border text-base font-medium text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
-                Details
-              </a>
-            </div>
-=======
           <div class="p-4">
             <h2 class="text-xl font-semibold">Graphic Designer</h2>
             <p class="text-gray-700 text-lg mt-2">
@@ -227,7 +199,6 @@
               class="block w-full text-center px-5 py-2.5 shadow-sm rounded border text-base font-medium text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
               Details
             </a>
->>>>>>> fe7e34a (Studying)
           </div>
         </div>
 

@@ -22,11 +22,7 @@
 
 ::before,
 ::after {
-<<<<<<< HEAD
-  --tw-content: "";
-=======
   --tw-content: '';
->>>>>>> fe7e34a (Studying)
 }
 
 /*
@@ -46,17 +42,9 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-<<<<<<< HEAD
-  tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-=======
      tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
->>>>>>> fe7e34a (Studying)
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -97,11 +85,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-<<<<<<< HEAD
-  text-decoration: underline dotted;
-=======
           text-decoration: underline dotted;
->>>>>>> fe7e34a (Studying)
 }
 
 /*
@@ -145,12 +129,7 @@ code,
 kbd,
 samp,
 pre {
-<<<<<<< HEAD
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
-=======
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
->>>>>>> fe7e34a (Studying)
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -245,15 +224,9 @@ select {
 */
 
 button,
-<<<<<<< HEAD
-[type="button"],
-[type="reset"],
-[type="submit"] {
-=======
 [type='button'],
 [type='reset'],
 [type='submit'] {
->>>>>>> fe7e34a (Studying)
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -300,11 +273,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-<<<<<<< HEAD
-[type="search"] {
-=======
 [type='search'] {
->>>>>>> fe7e34a (Studying)
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -397,12 +366,7 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-<<<<<<< HEAD
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-=======
 input::-moz-placeholder, textarea::-moz-placeholder {
->>>>>>> fe7e34a (Studying)
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -470,13 +434,7 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
-*,
-::before,
-::after {
-=======
 *, ::before, ::after {
->>>>>>> fe7e34a (Studying)
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -486,21 +444,6 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-<<<<<<< HEAD
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position: ;
-  --tw-gradient-via-position: ;
-  --tw-gradient-to-position: ;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
-=======
   --tw-pan-x:  ;
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
@@ -514,7 +457,6 @@ video {
   --tw-numeric-spacing:  ;
   --tw-numeric-fraction:  ;
   --tw-ring-inset:  ;
->>>>>>> fe7e34a (Studying)
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -522,26 +464,6 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-<<<<<<< HEAD
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
-=======
   --tw-blur:  ;
   --tw-brightness:  ;
   --tw-contrast:  ;
@@ -560,7 +482,6 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
->>>>>>> fe7e34a (Studying)
 }
 
 ::backdrop {
@@ -573,21 +494,6 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-<<<<<<< HEAD
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position: ;
-  --tw-gradient-via-position: ;
-  --tw-gradient-to-position: ;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
-=======
   --tw-pan-x:  ;
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
@@ -601,7 +507,6 @@ video {
   --tw-numeric-spacing:  ;
   --tw-numeric-fraction:  ;
   --tw-ring-inset:  ;
->>>>>>> fe7e34a (Studying)
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -609,26 +514,6 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-<<<<<<< HEAD
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
-=======
   --tw-blur:  ;
   --tw-brightness:  ;
   --tw-contrast:  ;
@@ -647,7 +532,6 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
->>>>>>> fe7e34a (Studying)
 }
 
 .container {
@@ -767,17 +651,6 @@ video {
   display: flex;
 }
 
-<<<<<<< HEAD
-.flex-col {
-  flex-direction: column;
-}
-
-.h-full {
-  height: 100%;
-}
-
-=======
->>>>>>> fe7e34a (Studying)
 .grid {
   display: grid;
 }
@@ -1061,36 +934,13 @@ video {
 
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-<<<<<<< HEAD
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
-    0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-=======
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
->>>>>>> fe7e34a (Studying)
 }
 
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-<<<<<<< HEAD
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter;
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter, -webkit-backdrop-filter;
-=======
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1098,7 +948,6 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
->>>>>>> fe7e34a (Studying)
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -1119,11 +968,7 @@ video {
 }
 
 .showcase {
-<<<<<<< HEAD
-  background-image: url("../images/showcase.jpg");
-=======
   background-image: url('../images/showcase.jpg');
->>>>>>> fe7e34a (Studying)
 }
 
 .hover\:bg-blue-600:hover {
@@ -1157,15 +1002,8 @@ video {
 
 .hover\:shadow-md:hover {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-<<<<<<< HEAD
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
-    0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-=======
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
->>>>>>> fe7e34a (Studying)
 }
 
 .focus\:outline-none:focus {
@@ -1194,8 +1032,4 @@ video {
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fe7e34a (Studying)
